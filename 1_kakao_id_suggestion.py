@@ -1,23 +1,6 @@
 # 완료
 import re
 
-arr_str = [
-    "...!@BaT#*..y.abcdefghijklm",
-    "z-+.^.",
-    "=.=",
-    "123_.def",
-    "abcdefghijklmn.p",
-    "iuf!@",
-    "!@#!@#",
-    "..3..3..3.....3..4.",
-    "...........",
-    "_-_-_abc_-_-",
-    "..abc'29-=",
-    "...,,,,===+++무무무/vb",
-    ".1.112...3.124..#$%^&*().",
-    ".!@#!@#BVI...USBL......VIb......abdVNVN.[]",
-    "!@#!@$....!@#!@#!"]
-
 def solution(new_id):
     answer = new_id
     # 소문자로 치환
@@ -41,6 +24,23 @@ def solution(new_id):
         answer += answer[-1]
 
     return answer
+
+test_arr = [
+    "...!@BaT#*..y.abcdefghijklm",
+    "z-+.^.",
+    "=.=",
+    "123_.def",
+    "abcdefghijklmn.p",
+    "iuf!@",
+    "!@#!@#",
+    "..3..3..3.....3..4.",
+    "...........",
+    "_-_-_abc_-_-",
+    "..abc'29-=",
+    "...,,,,===+++무무무/vb",
+    ".1.112...3.124..#$%^&*().",
+    ".!@#!@#BVI...USBL......VIb......abdVNVN.[]",
+    "!@#!@$....!@#!@#!"]
 
 for ar in arr_str:
     print(solution(ar))
