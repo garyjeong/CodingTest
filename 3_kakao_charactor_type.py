@@ -3,7 +3,6 @@
 # R - T, C - F, M - J, A - N
 # Level : 1, 2, 3, 4, 5, 6, 7
 
-
 def devider(types, point):
     result = ''
     if point > 4:
